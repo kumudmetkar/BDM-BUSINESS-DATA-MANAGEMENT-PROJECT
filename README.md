@@ -60,8 +60,11 @@ Automatically set up inside the app.py file.
 **Configure the API keys and Base URL**
 
 SUPABASE_URL="your_supabase_url_here"
+
 SUPABASE_ANON_KEY="your_anon_key_here"
+
 GROQ_API_KEY: "your_groq_api_key_here"
+
 BASE_URL: "http://127.0.0.1:5000"
 
 Place your PDF documents in the documents directory. (Already setup, if you want new PDFs, for that place them here.)
