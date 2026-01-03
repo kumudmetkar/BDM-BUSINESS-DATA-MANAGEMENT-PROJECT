@@ -31,37 +31,37 @@ Answer Stored in Supabase
 Returned to User
 
 # Setup Instructions
-Prerequisites
+**Prerequisites**
 
 Python 3.8 or higher
 
 pip (Python package installer)
 
-Installation
+**Installation**
 
-Clone the repository:
+**Clone the repository:**
 
 https://github.com/kumudmetkar/BDM-BUSINESS-DATA-MANAGEMENT-PROJECT
 
-Create and activate a virtual environment:
+**Create and activate a virtual environment:**
 
 python -m venv venv
 
 venv\Scripts\activate  
 
-Install the required dependencies:
+**Install the required dependencies:**
 
 pip install -r requirements.txt
 
-Set up the database:
+**Set up the database:**
 
 Automatically set up inside the app.py file.
 
-Configure the API keys and Base URL:
+**Configure the API keys and Base URL**
 
 Place your PDF documents in the documents directory. (Already setup, if you want new PDFs, for that place them here.)
 
-Running the Application
+**Running the Application**
 
 Start the Flask application:
 
@@ -90,7 +90,7 @@ This proves it handles both document-based and general knowledge.
 - Searches business documents using semantic similarity
 - Retrieves relevant context from PDFs
 
-3️**Groq LLaMA3 LLM Reasoning**
+3️ **Groq LLaMA3 LLM Reasoning**
 - Generates answers only when no prior knowledge exists
 - Explains information in human-readable language
 
