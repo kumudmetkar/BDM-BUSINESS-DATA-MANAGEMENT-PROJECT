@@ -18,16 +18,14 @@ read_documents.py: Reads and processes PDF documents, and creates a vector store
 requirements.txt: Lists the Python dependencies required for the project.
 
 # System Flow Diagram
-User Question
-   ↓
-Supabase (Check Memory)
-   ↓ (if not found)
+User Question -> Supabase (Check Memory)
+   -> (if not found)
 FAISS (Document Retrieval)
-   ↓ (if not relevant)
+   -> (if not relevant)
 Groq LLaMA3 (Reasoning)
-   ↓
+   ->
 Answer Stored in Supabase
-   ↓
+   ->
 Returned to User
 
 # Setup Instructions
